@@ -25,5 +25,9 @@ Route::get('blog', function (){
     return view ('Blog');
 });
 
+Route::get('test', function (){
+    return view ('Blog');
+});
+
 // Route::get('user', [UserController::class, 'index']);
 Route::resource('/user', formController::class);
